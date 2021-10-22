@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="Форма для статьи">
+    <meta name="description" content="Форма">
+    <title>gr2_alchyn_andrii_dz_2</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Дата выполнения задания 01.10.2021 -->
+</head>
+<body>
+    <nav class="menu">
+        <ul>
+            <li><a href="#">Категории</a></li>
+            <li><a href="#">Новости</a></li>
+            <li><a href="#">Добавить новость</a></li>
+            <li><a href="#">Настройки</a></li>
+        </ul>
+    </nav>
+    <form action="#" method="post" name="new-news" enctype="multipart/form-data">
+        <div class="knopka">
+            <ul>
+                <li><button type="submit">Сохранить</button></li>
+                <li><button>Соохранить и Добавить</button></li>
+                <li><button>Сохранить и Закрыть</button></li>
+                <li><button>Закрыть</button></li>
+            </ul>
+        </div>
+        <div class="general">
+            <div class="new-1" class="otst" class="shir">
+                <ul>
+                    <li>
+                        <label>
+                            <p class="glav">Название новости</p>
+                            <input class="shir" type="text" name="news">
+                        </label>
+                    </li>
+                    <li>
+                        <label>
+                            <p>Алиас</p>
+                            <input class="shir" type="text" name="alias">
+                        </label>
+                    </li>
+                    <li>
+                        <label>
+                            <p class="glav">Анонс</p>
+                            <textarea class="shir" name="announcement" rows="6"></textarea>
+                        </label>
+                    </li>
+                    <li>
+                        <label>
+                            <p class="glav">Текст</p>
+                            <textarea class="shir" name="text" rows="16"></textarea>
+                        </label>
+                    </li>
+                </ul>
+            </div>
+            <div class="new-2">
+                <ul>
+                    <li>
+                        <label>
+                            <p class="glav">Фото</p>
+                            <input class="shir" type="file" name="foto">
+                        </label>
+                    </li>
+                    <li>
+                        <label>
+                            <p class="glav">Слайдер</p>
+                            <select class="shir" name="slider">
+                                <option value="enable">Активена</option>
+                                <option value="disable" selected>Не активна</option>
+                            </select>
+                        </label>
+                    </li>
+                    <li>
+                        <label>
+                            <p class="glav">Основные новости</p>
+                            <select class="shir" name="main-news">
+                                <option value="enable">Активена</option>
+                                <option value="disable" selected>Не активна</option>
+                            </select>
+                        </label>
+                    </li>
+                    <li>
+                        <label>
+                            <p class="glav">Активность</p>
+                            <select class="shir" name="activity">
+                                <option value="enable" selected>Активена</option>
+                                <option value="disable">Не активна</option>
+                            </select>
+                        </label>
+                    </li>
+                    <li>
+                        <label>
+                            <p class="glav">Категория</p>
+                            <select class="shir" name="category">
+                                <option value="politics" selected>Политика</option>
+                                <option value="film">Кино</option>
+                                <option value="music">Музыка</option>
+                                <option value="common">Общие</option>
+                                <option value="crime">Криминал</option>
+                                <option value="kids">Для детей</option>
+                            </select>
+                        </label>
+                    </li>
+                    <li>
+                        <label>
+                            <p>Дата создания новости</p>
+                            <input class="shir" type="datetime-local" name="date"/>
+                        </label>
+                    </li>
+                    <li>
+                        <label>
+                            <p>Кол-во просмотров</p>
+                            <input class="shir" type="text" name="views">
+                        </label>
+                    </li>
+                    <li>
+                        <label>
+                            <p>Автор</p>
+                            <input class="shir" type="text" name="author">
+                        </label>
+                    </li>
+                    <li>
+                        <label>
+                            <p>Теги</p>
+                            <input class="shir" type="text" name="tags">
+                        </label>
+                    </li>
+                    <li>
+                        <label>
+                            <p>Keywords meta</p>
+                            <input class="shir" type="text" name="keywords">
+                        </label>
+                    </li>
+                    <li>
+                        <label>
+                            <p>Discription meta</p>
+                            <textarea class="shir" name="discription" rows="4"></textarea>
+                        </label>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
